@@ -1,0 +1,52 @@
+# Basic
+title: Groot's Home
+subtitle: 
+welcome_message: 
+description: 怕什么真理无穷，<br>进一寸有进一寸的欢喜
+creator: <a href="http://groowang.com">@Groot</a>
+
+url: "http://grootwang.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit Blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: VeeR, description: My Second Home, url: 'https://veervr.tv?from=groot-blog'}
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: grootwang
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: grootwang
+    github: Jingshuai
+    twitter: grootwang
+    mail: grootwang@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
